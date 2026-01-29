@@ -5,6 +5,9 @@ from flask import Flask, request, jsonify, send_from_directory, render_template
 
 from translator import translate_text, text_to_speech_kannada
 
+from deep_translator import GoogleTranslator
+translated = GoogleTranslator(source='en', target='kn')
+
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_AUDIO_DIR = os.path.join(APP_DIR, 'static', 'audio')
 os.makedirs(STATIC_AUDIO_DIR, exist_ok=True)
