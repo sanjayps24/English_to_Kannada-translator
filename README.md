@@ -3,6 +3,9 @@
 
 A simple yet powerful translator that converts English text and speech into Kannada, making communication easier, faster, and more inclusive.
 
+ This project is live and deployed using Render 
+ https://english-to-kannada-translator-wce4.onrender.com/
+
 ## 🚀 Project Overview
 
 - Language should never be a barrier.
